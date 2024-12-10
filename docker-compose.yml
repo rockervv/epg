@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  flask:
+    image: myflask
+    container_name: myflask
+    restart: always
+      #volumes:
+      #  - "/flask:/epg"
+    ports:
+      - "80:5000"

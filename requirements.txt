@@ -1,0 +1,7 @@
+flask
+#os
+#subprocess
+requests
+#json
+uwsgi
+logging
